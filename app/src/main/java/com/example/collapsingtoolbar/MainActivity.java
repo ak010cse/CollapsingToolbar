@@ -11,6 +11,9 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity {
     CardView bankcardId,ideaCardId,addCardId,linkCardId,addWifiCard;
 
+//    Demo link
+//    https://www.youtube.com/channel/UCoQp_Duwqh0JWEZrg4DT2Ug/playlists
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
