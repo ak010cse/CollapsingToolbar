@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:background="#fcfcfc">
+    android:background="@color/lightgray">
 
   <com.google.android.material.appbar.AppBarLayout
       android:id="@+id/appbar"
@@ -31,7 +31,6 @@
               app:layout_collapseMode="pin"/>
       </com.google.android.material.appbar.CollapsingToolbarLayout>
 
-
   </com.google.android.material.appbar.AppBarLayout>
     <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
@@ -41,9 +40,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical"
-            android:gravity="center"
-            android:background="#fcfcfc"
-            android:padding="10dp">
+            android:gravity="center">
         <LinearLayout
             android:clipToPadding="false"
             android:gravity="center"
@@ -55,7 +52,7 @@
                 android:clickable="true"
                 android:id="@+id/bankcardId"
                 android:layout_width="160dp"
-                android:layout_height="190dp"
+                android:layout_height="170dp"
                 android:layout_margin="10dp">
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -94,7 +91,7 @@
                 android:foreground="?android:attr/selectableItemBackground"
                 android:clickable="true"
                 android:layout_width="160dp"
-                android:layout_height="190dp"
+                android:layout_height="170dp"
                 android:layout_margin="10dp">
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -141,7 +138,7 @@
                 android:foreground="?android:attr/selectableItemBackground"
                 android:clickable="true"
                 android:layout_width="160dp"
-                android:layout_height="190dp"
+                android:layout_height="170dp"
                 android:layout_margin="10dp">
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -180,7 +177,7 @@
                 android:foreground="?android:attr/selectableItemBackground"
                 android:clickable="true"
                 android:layout_width="160dp"
-                android:layout_height="190dp"
+                android:layout_height="170dp"
                 android:layout_margin="10dp">
 
                 <LinearLayout
